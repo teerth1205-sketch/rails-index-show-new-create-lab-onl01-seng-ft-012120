@@ -1,5 +1,5 @@
 <div>
   <% @coupons.each do |student| %>
-    <div><%=student%></div>
+    <div><%= link_to student, student_path(student) %></div>
   <% end %>
 </div
